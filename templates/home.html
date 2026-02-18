@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title> Review app by PG </title>
+		<style>
+			* { font-size:40px;
+			text-align:center;	font-family:Cambria;}
+			textarea {resize : none;}
+			body {background-color : azure;}
+		</style>
+	</head>
+	
+	<body>
+		<h1> Review App </h1>
+		<form method="POST">
+			<textarea placeholder="Enter Review"	name="text"
+			rows=7 cols=50 required></textarea>
+			<br/><br/>
+			<input type="submit" />
+		</form>
+	
+		<h2> {{ msg }} </h2>
+	</body>
+</html>
